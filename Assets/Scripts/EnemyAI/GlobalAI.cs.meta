@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 83ed2b752459fa349932ee9497e257c6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - graphGenerator: {instanceID: 0}
+  - farm: {fileID: 919132149155446097, guid: 1ee83e4f326c8f54abb1c2741409d623, type: 3}
+  - dragonLvl1: {fileID: 3770233837265196622, guid: 86daf39183fcb694ea1c0a4b547ae6e6, type: 3}
+  - dragonLvl2: {fileID: 3770233837265196622, guid: 8c4a7806b5ad80346abff7bcb6d62bbb, type: 3}
+  - dragonLvl3: {fileID: 3770233837265196622, guid: 4175cfeddf73907439c5828c9f526b60, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

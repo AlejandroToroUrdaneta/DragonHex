@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &399801246892643649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_Name
+      value: A
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1729402764263626501}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8019885802083162002}
+  m_SourcePrefab: {fileID: 100100000, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+--- !u!1 &670201592917944336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+  m_PrefabInstance: {fileID: 399801246892643649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &-1729402764263626501
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670201592917944336}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2534964839176971238, guid: f426ceb569953d64c9f1292d8c592393, type: 3}
+--- !u!114 &8019885802083162002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670201592917944336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b43e318cc9af84592485e9275ba87f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldPosition: {x: 0, y: 0, z: 0}
+  parent: {fileID: 0}
+  connectedNode: {fileID: 0}
+  walkable: 0
+  nodeMask:
+    serializedVersion: 2
+    m_Bits: 128
+  gCost: 0
+  hCost: 0
+  terrainType: 0
+  occupyingCharacter: {fileID: 0}
+  onTopGmObj: {fileID: 0}
+  validNorthNeighbours:
+  - {fileID: 8019885802083162002}
+  - {fileID: -2405033936596379622, guid: 510b58bba0629024e9670a468ee70821, type: 3}
+  - {fileID: 7469642838418092832, guid: 3e679ee4c6b384a45897998ce0f073be, type: 3}
+  - {fileID: -2720161640841883793, guid: ade53b5e2ebf4d743805bbed8f6b8202, type: 3}
+  validNorthEastNeighbours:
+  - {fileID: 8019885802083162002}
+  - {fileID: -2720161640841883793, guid: ade53b5e2ebf4d743805bbed8f6b8202, type: 3}
+  - {fileID: 1555119967788257017, guid: 220ed20e031c589499091386d2b1c4ef, type: 3}
+  - {fileID: 4079231847162275545, guid: ddea1a8bd602caf4fa428615bf83dbba, type: 3}
+  validSouthEastNeighbours:
+  - {fileID: 8019885802083162002}
+  - {fileID: 4079231847162275545, guid: ddea1a8bd602caf4fa428615bf83dbba, type: 3}
+  - {fileID: 2907834898079592212, guid: a36daae0f271f8443ae22408d7f92a9f, type: 3}
+  - {fileID: 7926110573380023608, guid: 2c2c3f2b3a5c844479369e34d13ffcaa, type: 3}
+  validSouthNeighbours:
+  - {fileID: 8019885802083162002}
+  - {fileID: 7926110573380023608, guid: 2c2c3f2b3a5c844479369e34d13ffcaa, type: 3}
+  - {fileID: 1070054965266138525, guid: 4ead6a70681dab543be2c22b5843c55e, type: 3}
+  - {fileID: 7678458773617586605, guid: 90c631e541872f94c842ecf33048f748, type: 3}
+  validSouthWestNeighbours:
+  - {fileID: 8019885802083162002}
+  - {fileID: 7678458773617586605, guid: 90c631e541872f94c842ecf33048f748, type: 3}
+  - {fileID: -4102027908674565524, guid: 9a1e2814525b6f54fac29dbeb79e5b40, type: 3}
+  - {fileID: 1508925634942526272, guid: 341d9b225c59344429ca7a222b64f5cc, type: 3}
+  validNorthWestNeighbours:
+  - {fileID: 8019885802083162002}
+  - {fileID: 1508925634942526272, guid: 341d9b225c59344429ca7a222b64f5cc, type: 3}
+  - {fileID: 6022985721937929755, guid: d3391e62ff5a847418368c74b2a0ba9f, type: 3}
+  - {fileID: -2405033936596379622, guid: 510b58bba0629024e9670a468ee70821, type: 3}

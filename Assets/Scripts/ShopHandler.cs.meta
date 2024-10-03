@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb181578e4d9b784ebd488606108955b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - coinsText: {instanceID: 0}
+  - Dragon1: {fileID: 3659262398905842243, guid: 13dd0f3a56e6b3f409c99fdc184cbacc, type: 3}
+  - Granja: {fileID: 919132149155446097, guid: 1ee83e4f326c8f54abb1c2741409d623, type: 3}
+  - Muro: {fileID: 919132149155446097, guid: 2195560153e353f458bab9f67a1bcf58, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
